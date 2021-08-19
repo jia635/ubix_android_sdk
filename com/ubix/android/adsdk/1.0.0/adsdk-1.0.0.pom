@@ -9,6 +9,12 @@
   <dependencies>
     <dependency>
       <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java</artifactId>
+      <version>3.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
       <artifactId>protoc</artifactId>
       <version>3.0.0</version>
       <scope>compile</scope>
