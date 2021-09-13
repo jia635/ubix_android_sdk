@@ -4,9 +4,15 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.ubix.android</groupId>
   <artifactId>adsdk</artifactId>
-  <version>1.0.0</version>
+  <version>1.1.0</version>
   <packaging>aar</packaging>
   <dependencies>
+    <dependency>
+      <groupId>com.google.protobuf</groupId>
+      <artifactId>protobuf-java</artifactId>
+      <version>3.0.0</version>
+      <scope>compile</scope>
+    </dependency>
     <dependency>
       <groupId>com.google.protobuf</groupId>
       <artifactId>protoc</artifactId>
