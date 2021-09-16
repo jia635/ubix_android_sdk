@@ -2,9 +2,9 @@
 <project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>com.ubix.android</groupId>
-  <artifactId>adsdk</artifactId>
-  <version>1.1.0</version>
+  <groupId>com.ubix.mediationsdk</groupId>
+  <artifactId>ubix_unite_sdk</artifactId>
+  <version>1.0.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
@@ -36,6 +36,50 @@
       <artifactId>appcompat-v7</artifactId>
       <version>28.0.0</version>
       <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <artifactId>jad_yun_sdk_v1.2.6</artifactId>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <artifactId>kssdk_ad_3.3.13</artifactId>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <artifactId>adsdk-1.1.0</artifactId>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <artifactId>Baidu_MobAds_SDK-release_v9.15</artifactId>
+      <type>aar</type>
+      <scope>compile</scope>
+      <exclusions>
+        <exclusion>
+          <artifactId>*</artifactId>
+          <groupId>*</groupId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
 </project>
